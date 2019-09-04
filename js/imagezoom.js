@@ -11,7 +11,7 @@
     opacity:0.5,
     cursor:'crosshair',
     zindex:2147483647,
-    zoomviewsize:[480,485],
+    zoomviewsize:[600,610],
     zoomviewposition:'left',
     zoomviewmargin:10,
     zoomviewborder:'none',
