@@ -54,7 +54,7 @@ display:none;
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
-  width: 100%;
+  width: unset;
   display: block;
 }
 .flexslider .slides:after {

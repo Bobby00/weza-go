@@ -1046,6 +1046,9 @@ img {
 section.space--md {
   padding-top: 6.142857em;
 }
+section.space--md-cstm {
+  padding-top: 2.142857em;
+}
 .prd-main-name {
   font-size: 50px; font-weight: 800;
 }
