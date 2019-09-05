@@ -186,7 +186,7 @@ html[xmlns] .flexslider .slides {
   cursor: default;
 }
 .flex-control-thumbs {
-  /*margin-top: 25px;*/
+  margin-top: 25px;
   position: static;
   overflow: hidden;
 }
