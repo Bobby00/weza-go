@@ -33,35 +33,42 @@
 
 <div class="container">
 
-    <section>
+   
 
-        <div class="row">
+    <div class="row">
+        <form method="post" target="#">
             <center>
             <div class="customer-details login-width">
                 <p class="text-left site_color login-txt">SIGN UP</p>
                 <p class="sec_color text-left custom-weight-600">Please enter your phone number to recieve a link to download the Wezago app for you to sign up.</p>
-                <input class="col-xs-12 col-sm-12" type="text" placeholder="Phone number" name="phone-number">
+
+                <div class="form-group">
+                    <input class="col-xs-12 col-sm-12" type="number" placeholder="Phone number" required name="phone-number">
+
+                    <div class="response_confirm text-left" role="alert">
+                        <p class="response_styl"><i class="fas fa-exclamation-triangle"></i> Enter starting with (+254)</p>
+                    </div>
+
+                </div>
             </div>
             </center>
-        </div>
 
-<center>
-    <div class="row extras-login login-width">
-        
-        <div class="text-center login-cstm-margin">
-            <a class="col-xs-6 col-sm-6 purp-sm-btn">SEND LINK</a>
-            <a href="login.html" class="sec_color txt-underline col-xs-6 col-sm-6">LOG IN</a>
-            
-        </div>
-   
+            <center>
+                <div class="row extras-login login-width">
+                    
+                    <div class="text-center login-cstm-margin">
+                        <button type="submit" class="col-xs-6 col-sm-6 purp-sm-btn">SEND LINK</button>
+                        <a href="login.html" class="sec_color txt-underline col-xs-6 col-sm-6">LOG IN</a>
+                        
+                    </div>
+               
+                </div>
+            </center>
+        </form>
     </div>
-</center>
-
-    </section>
-    
-
 </div>
 </section>
+
         <div class="main-container">
             <footer class="text-center space--sm footer-5 footer-styling">
                 <div class="container">

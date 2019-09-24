@@ -33,43 +33,80 @@
 
 <div class="container">
 
-    <section>
 
-        <div class="row">
+
+    <div class="row">
+        <form method="POST" target="#">
             <center>
-            <div class="customer-details login-width">
-                <p class="text-left site_color login-txt">LOG IN</p>
-                <input class="col-xs-12 col-sm-12" type="number" placeholder="Phone number" name="phone-number">
-                <input class="col-xs-12 col-sm-12 login-input-margin" type="number" placeholder="Your 4 digit PIN" name="pin">
-            </div>
+                <div class="customer-details login-width">
+                    
+                    <p class="text-left site_color login-txt">LOG IN</p>
+                  <div class="form-group">
+                    <input class="col-xs-12 col-sm-12" type="number" placeholder="Phone number" required name="phone-number">
+
+                    <div class="response_success text-left" role="alert">
+                        <p class="response_styl"><i class="far fa-check-circle"></i> Looks okay</p>
+                    </div>
+                    
+                    <div class="response_alert text-left" role="alert">
+                        <p class="response_styl"><i class="fas fa-exclamation"></i> Phone number is required</p>
+                    </div>
+                    
+                    <div class="response_confirm text-left" role="alert">
+                        <p class="response_styl"><i class="fas fa-exclamation-triangle"></i> Enter starting with (+254)</p>
+                    </div>
+                    
+
+                  </div>
+                
+                    <div class="form-group form-group_alert">
+                        <input class="col-xs-12 col-sm-12" type="number" required placeholder="Your 4 digit PIN" name="pin">
+                        <div class="response_alert text-left" role="alert">
+                            <p class="response_styl"><i class="fas fa-exclamation"></i> Confirm your pin</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-group_success">
+                        <input class="col-xs-12 col-sm-12" type="number" required placeholder="Your 4 digit PIN" name="pin">
+                        <div class="response_success text-left" role="alert">
+                            <p class="response_styl"><i class="far fa-check-circle"></i> Looks okay</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-group_confirm">
+                        <input class="col-xs-12 col-sm-12" type="number" required placeholder="Your 4 digit PIN" name="pin">
+                        <div class="response_confirm text-left" role="alert">
+                            <p class="response_styl"><i class="fas fa-exclamation-triangle"></i> Pin needs to be 4 digits</p>
+                        </div> 
+                    </div>
+
+                </div>
             </center>
-        </div>
 
-<center>
-    <div class="row extras-login login-width text-left">
-    
-        <div class="input-checkbox">
-                <input id="checkbox" type="checkbox" name="agree" />
-                <label class="lbl-border-color" for="checkbox">
-        </div>
-        <label class="lbl-border-color" for="checkbox"><span class="fnt-15">Remember me</span></label>
-        
-        <div class="text-center login-cstm-margin">
-            <a class="col-xs-6 col-sm-6 purp-sm-btn">LOG IN</a>
-            <a href="signup.html" class="sec_color txt-underline col-xs-6 col-sm-6">SIGN UP</a>
-            
-        </div>
-        <div class="row">
-        <div class="col-xs-12 col-sm-12 forgot-btn-styl">
-            <a href="#0">Forgot Password<i class="fa fa-question"></i></a>
-        </div>
+            <center>
+                <div class="row extras-login login-width text-left">
+                
+                    <div class="input-checkbox">
+                            <input id="checkbox" required type="checkbox" name="agree" />
+                            <label class="lbl-border-color" for="checkbox"></label>
+                    </div>
+                    <label class="lbl-border-color" for="checkbox"><span class="fnt-15">Remember me</span></label>
+                    
+                    <div class="text-center login-cstm-margin">
+                        <button type="submit" class="col-xs-6 col-sm-6 purp-sm-btn">LOG IN</button>
+                        <a href="signup.html" class="sec_color txt-underline col-xs-6 col-sm-6">SIGN UP</a>
+                    </div>
+                    
+                    
+                    <div class="row">
+                    <div class="col-xs-12 col-sm-12 forgot-btn-styl">
+                        <a href="#0">Forgot Password<i class="fa fa-question"></i></a>
+                    </div>
+                </div>
+                </div>      
+            </center>
+        </form>
     </div>
-    </div>
-    
-        
-</center>
-
-    </section>
     
 
 </div>

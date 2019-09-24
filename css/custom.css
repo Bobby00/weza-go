@@ -460,6 +460,35 @@ progress {
 
 }
 
+.response_confirm {
+  font-weight: 700;
+  color: #f2aa1d;
+}
+.response_success {
+  color: green;
+  font-weight: 700;
+}
+.response_alert {
+  color: red;
+  font-weight: 700;
+}
+
+.response_styl {
+  font-size: 14px;
+  padding-left: 15px;
+
+}
+
+.form-group_alert input {
+  border-color: red;
+}
+.form-group_success input {
+  border-color: green;
+}
+.form-group_confirm input {
+  border-color: #f2aa1d;
+}
+
 
 .star-rating2 {
   font-family: 'FontAwesome';
@@ -999,13 +1028,15 @@ img {
   color: white;
   border-radius: 20px;
   padding: 5px;
+  font-weight: 700;
 }
 
 .purp-sm-btn:hover {
-  border: 1px solid #f2aa1d;
-  background-color: #f2aa1d;
-  color: white;
+  border: 2px solid #f2aa1d;
+  background-color: white;
+  color: #f2aa1d;
   cursor: pointer;
+  font-weight: 700;
   border-radius: 20px;
   padding: 5px;
   text-decoration: none;
